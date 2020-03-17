@@ -15,6 +15,10 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
+required: .nuxt 、nuxt.config.js、pakage.json 、static
+
+pm2 start npm --name nuxt-app -- run start  
+
 # generate static project
 $ npm run generate
 ```

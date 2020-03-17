@@ -4,6 +4,9 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  router: {
+    base: '/nuxt-app/'
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -29,7 +32,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src: '~plugins/iview', ssr: true}
+    { src: '~plugins/iview', ssr: true }
   ],
   /*
   ** Nuxt.js dev-modules
